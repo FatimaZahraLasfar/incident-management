@@ -1,0 +1,8 @@
+application:
+  security:
+    jwt:
+      # Clé secrète encodée en Base64 (minimum 256 bits / 32 caractères)
+      # Celle-ci est un exemple généré, vous pouvez la garder pour le dev
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      # Durée de vie du token : 5 minutes (300 000 ms) - Section 17 du devoir
+      expiration: 300000
